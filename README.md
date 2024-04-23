@@ -2,7 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/leonfagundes27/Backend-Projeto-Integrador/blob/main/LICENSE) 
 
 ## Link do repositório do Back-end
-(https://github.com/erick-sts/Erick-Body-Parts-Cars.git)
+(https://github.com/erick-sts/Erick-Body-Parts-Cars)
 
 ## <img src="https://github.com/leonfagundes27/Assets/blob/main/Images/imagem.png" width="30" height="30"> Layout
 ![Tela Login](https://github.com/erick-sts/assets/blob/main/imgsBodyCars/login.png)
