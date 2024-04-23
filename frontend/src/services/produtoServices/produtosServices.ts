@@ -4,11 +4,21 @@ const BASE_URL = 'http://localhost:8800';
 
 export const getProdutos = async () => {
     try {
-      const response = await axios.get(`${BASE_URL}/produtos/`);
-      return response.data;
+        const response = await axios.get(`${BASE_URL}/produtos/`);
+        return response.data;
     } catch (error) {
-      console.error('Erro ao buscar produtos:', error);
-      throw error;
+        console.error('Erro ao buscar produtos:', error);
+        throw error;
+    }
+};
+
+export const getProdutoById = async (productId: string) => {
+    try {
+        const response = await axios.get(`${BASE_URL}/produtos/${productId}`);
+        return response.data;
+    } catch (error) {
+        console.error(`Erro ao buscar produto com ID ${productId}:`, error);
+        throw error;
     }
 };
 
@@ -32,4 +42,12 @@ export const deletarProduto = async (productId: string) => {
     }
 };
 
-
+export const atualizarProduto = async (productId: string, produtoData: any) => {
+    try {
+        const response = await axios.put(`${BASE_URL}/produtos/editar/${productId}`, produtoData);
+        return response.data;
+    } catch (error) {
+        console.error(`Erro ao atualizar produto com ID ${productId}:`, error);
+        throw error;
+    }
+};

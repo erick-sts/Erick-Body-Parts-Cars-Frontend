@@ -32,6 +32,8 @@ const CadastroProduto: React.FC = () => {
             setValor('');
 
             alert('Produto cadastrado com sucesso!');
+            // Redireciona para a página de listagem de produtos
+            window.location.href = '/home';
         } catch (error) {
             console.error('Erro ao cadastrar produto:', error);
             alert('Erro ao cadastrar produto. Por favor, tente novamente.');
