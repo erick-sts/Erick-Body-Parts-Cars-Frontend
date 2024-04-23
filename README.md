@@ -1,4 +1,4 @@
-# Case Mind Group - Sistema de cadastro produtos
+# Case Mind Group - Sistema de cadastro de produtos
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/leonfagundes27/Backend-Projeto-Integrador/blob/main/LICENSE) 
 
 ## Link do repositório do Back-end
